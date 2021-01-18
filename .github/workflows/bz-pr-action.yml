@@ -33,5 +33,5 @@ jobs:
           bugzilla_token: ${{ secrets.BUGZILLA_TOKEN }}
           org_repo: ${{ github.repository }}
           pr_number: ${{ github.event.pull_request.number }}
-          product: "Migration Toolkit for Containers"
+          bz_product: "Migration Toolkit for Containers"
           title: ${{ github.event.pull_request.title }}
