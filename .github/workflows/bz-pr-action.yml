@@ -31,7 +31,7 @@ jobs:
         name: update bugzilla with posted pr
         with:
           bugzilla_token: ${{ secrets.BUGZILLA_TOKEN }}
-          repo-org: ${{ github.repository }}
+          org-repo: ${{ github.repository }}
           pr_number: ${{ github.event.number }}
           product: "Migration Toolkit for Containers"
           title: ${{ github.event.title }}
