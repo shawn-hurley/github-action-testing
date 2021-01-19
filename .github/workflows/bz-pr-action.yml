@@ -35,3 +35,4 @@ jobs:
           pr_number: ${{ github.event.pull_request.number }}
           bz_product: "Migration Toolkit for Containers"
           title: ${{ github.event.pull_request.title }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
