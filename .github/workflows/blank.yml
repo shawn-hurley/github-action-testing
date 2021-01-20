@@ -33,5 +33,5 @@ jobs:
           bz_product: "Migration Toolkit for Containers"
           title: ${{ github.event.pull_request.title }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch_to_relase: "main:1.5.z,master:1.6.0"
+          branch_to_release: "main:1.5.z,master:1.6.0"
           base_branch: ${{ github.base_ref }}
